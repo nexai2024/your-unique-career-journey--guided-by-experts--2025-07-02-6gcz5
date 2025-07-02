@@ -3,27 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enhanced Landing Page</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Career Catalyst - Your Unique Career Journey</title>
     <meta name="description" content="Personalized career guidance with AI-powered learning plans and real-world experience">
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body class="font-['Inter'] antialiased bg-white text-gray-900">
     <header class="fixed w-full bg-white/95 backdrop-blur-sm z-50 border-b border-gray-100">
         <nav class="container mx-auto px-6 py-4">
             <div class="flex items-center justify-between">
-                <a href="/" class="text-2xl font-bold bg-gradient-to-r from-purple-600 to-blue-500 bg-clip-text text-transparent">Career Catalyst</a>
+                <a href="https://nexai2024.github.io/your-unique-career-journey--guided-by-experts--2025-07-02-6gcz5" class="text-2xl font-bold bg-gradient-to-r from-purple-600 to-blue-500 bg-clip-text text-transparent transition-transform duration-300 hover:scale-105">Career Catalyst</a>
                 <div class="hidden md:flex space-x-8">
-                    <a href="#features" class="text-gray-600 hover:text-gray-900 transition-colors duration-300">Features</a>
-                    <a href="#benefits" class="text-gray-600 hover:text-gray-900 transition-colors duration-300">Benefits</a>
-                    <a href="#faq" class="text-gray-600 hover:text-gray-900 transition-colors duration-300">FAQ</a>
+                    <a href="#features" class="text-gray-600 hover:text-gray-900 transition-all duration-300 hover:scale-105">Features</a>
+                    <a href="#video" class="text-gray-600 hover:text-gray-900 transition-all duration-300 hover:scale-105">Video</a>
+                    <a href="#benefits" class="text-gray-600 hover:text-gray-900 transition-all duration-300 hover:scale-105">Benefits</a>
+                    <a href="#testimonials" class="text-gray-600 hover:text-gray-900 transition-all duration-300 hover:scale-105">Testimonials</a>
+                    <a href="#about" class="text-gray-600 hover:text-gray-900 transition-all duration-300 hover:scale-105">About</a>
+                    <a href="#faq" class="text-gray-600 hover:text-gray-900 transition-all duration-300 hover:scale-105">FAQ</a>
                     <a href="https://career-catalyst.site" class="px-6 py-2 bg-gradient-to-r from-purple-600 to-blue-500 text-white rounded-full hover:shadow-lg transition-all duration-300 transform hover:scale-105">Get Started</a>
                 </div>
-                <button class="md:hidden text-gray-600">
-                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
-                    </svg>
+                <button class="mobile-menu-button md:hidden text-gray-600" aria-label="Toggle mobile menu">
+                    <i class="fas fa-bars text-2xl"></i>
                 </button>
+            </div>
+            <div class="mobile-menu hidden md:hidden mt-4 bg-white rounded-lg shadow-lg absolute left-0 right-0 p-4">
+                <a href="#features" class="block py-2 text-gray-600 hover:text-gray-900 transition-colors duration-300">Features</a>
+                <a href="#video" class="block py-2 text-gray-600 hover:text-gray-900 transition-colors duration-300">Video</a>
+                <a href="#benefits" class="block py-2 text-gray-600 hover:text-gray-900 transition-colors duration-300">Benefits</a>
+                <a href="#testimonials" class="block py-2 text-gray-600 hover:text-gray-900 transition-colors duration-300">Testimonials</a>
+                <a href="#about" class="block py-2 text-gray-600 hover:text-gray-900 transition-colors duration-300">About</a>
+                <a href="#faq" class="block py-2 text-gray-600 hover:text-gray-900 transition-colors duration-300">FAQ</a>
+                <a href="https://career-catalyst.site" class="block py-2 text-purple-600 hover:text-purple-700 transition-colors duration-300">Get Started</a>
             </div>
         </nav>
     </header>
@@ -33,9 +52,12 @@
             <div class="absolute inset-0 bg-gradient-to-r from-purple-900/90 to-blue-900/90"></div>
             <div class="container mx-auto px-6 relative z-10">
                 <div class="max-w-4xl">
-                    <h1 class="text-4xl md:text-6xl font-bold text-white leading-tight mb-6">Your Unique Career Journey, Guided by Experts.</h1>
-                    <p class="text-xl md:text-2xl text-gray-200 mb-8">At Career Catalyst, we believe in bespoke guidance that transforms your career path into a success story.</p>
-                    <a href="https://career-catalyst.site" class="inline-block px-8 py-4 bg-white text-purple-600 rounded-full text-lg font-semibold hover:shadow-xl transition-all duration-300 transform hover:scale-105">Start Your Journey</a>
+                    <h1 class="text-4xl md:text-6xl font-bold text-white leading-tight mb-6">Your Unique Career Journey, Guided by Experts</h1>
+                    <p class="text-xl md:text-2xl text-gray-200 mb-8">Transform your career path with personalized AI-powered guidance and real-world experience. Join thousands of successful professionals who've accelerated their careers with Career Catalyst.</p>
+                    <div class="flex flex-col sm:flex-row gap-4">
+                        <a href="https://career-catalyst.site" class="inline-block px-8 py-4 bg-white text-purple-600 rounded-full text-lg font-semibold hover:shadow-xl transition-all duration-300 transform hover:scale-105 text-center">Start Your Journey</a>
+                        <a href="#video" class="inline-block px-8 py-4 bg-transparent border-2 border-white text-white rounded-full text-lg font-semibold hover:bg-white/10 transition-all duration-300 text-center">Watch Demo</a>
+                    </div>
                 </div>
             </div>
         </section>
@@ -44,29 +66,29 @@
             <div class="container mx-auto px-6">
                 <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">Innovative Features for Your Success</h2>
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
-                    <div class="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-shadow duration-300">
+                    <div class="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-102">
                         <div class="w-16 h-16 bg-purple-100 rounded-full flex items-center justify-center mb-6">
                             <svg class="w-8 h-8 text-purple-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
                             </svg>
                         </div>
-                        <h3 class="text-xl font-semibold mb-4">AI Learning Plans</h3>
-                        <p class="text-gray-600">Personalized learning paths powered by advanced AI algorithms to optimize your career development.</p>
+                        <h3 class="text-xl font-semibold mb-4">AI-Powered Learning Plans</h3>
+                        <p class="text-gray-600">Our advanced AI algorithms analyze your skills, goals, and industry trends to create personalized learning paths that optimize your career development. Experience up to 3x faster skill acquisition with targeted recommendations and adaptive learning.</p>
                     </div>
-                    <div class="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-shadow duration-300">
+                    <div class="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-102">
                         <div class="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mb-6">
                             <svg class="w-8 h-8 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
                             </svg>
                         </div>
-                        <h3 class="text-xl font-semibold mb-4">Real World Experience</h3>
-                        <p class="text-gray-600">Gain practical experience through industry partnerships and hands-on projects.</p>
+                        <h3 class="text-xl font-semibold mb-4">Real-World Experience</h3>
+                        <p class="text-gray-600">Gain practical experience through our network of 500+ industry partners. Work on real projects, build your portfolio, and develop the hands-on skills employers demand. 87% of our graduates secure relevant positions within 3 months.</p>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section class="py-24">
+        <section id="video" class="py-24">
             <div class="container mx-auto px-6">
                 <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">Watch How We Transform Careers</h2>
                 <div class="relative w-full max-w-4xl mx-auto rounded-2xl overflow-hidden shadow-2xl">
@@ -74,6 +96,7 @@
                         <iframe class="absolute top-0 left-0 w-full h-full" src="https://www.youtube.com/embed/0y_a7uQioTA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </div>
                 </div>
+                <p class="text-center text-gray-600 mt-8 text-lg">Learn how our innovative approach has helped thousands of professionals accelerate their career growth</p>
             </div>
         </section>
 
@@ -81,41 +104,104 @@
             <div class="container mx-auto px-6">
                 <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">Benefits That Set Us Apart</h2>
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
-                    <div class="bg-white rounded-2xl p-8 shadow-lg">
+                    <div class="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-102">
                         <h3 class="text-xl font-semibold mb-4">Personalized Every Step</h3>
-                        <p class="text-gray-600">Tailored guidance and support throughout your career journey, ensuring your unique needs are met.</p>
+                        <p class="text-gray-600">Experience truly customized career guidance with our AI-driven platform that adapts to your progress. Receive personalized feedback, custom learning paths, and targeted opportunities that align with your career goals.</p>
                     </div>
-                    <div class="bg-white rounded-2xl p-8 shadow-lg">
+                    <div class="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-102">
                         <h3 class="text-xl font-semibold mb-4">Cost-Effective Investment</h3>
-                        <p class="text-gray-600">Affordable solutions that deliver exceptional value for your career development.</p>
+                        <p class="text-gray-600">Maximize your ROI with our affordable solutions. Our members see an average salary increase of 45% within the first year. Flexible payment plans and guaranteed results make career advancement accessible to all.</p>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section id="faq" class="py-24">
+        <section class="py-24 bg-gradient-to-r from-purple-600 to-blue-500 text-white" style="background-image: url('https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=2000'); background-blend-mode: overlay;">
+            <div class="container mx-auto px-6 text-center">
+                <h2 class="text-3xl md:text-4xl font-bold mb-8">Ready to Transform Your Career?</h2>
+                <p class="text-xl mb-8 max-w-2xl mx-auto">Join over 10,000 professionals who have accelerated their career growth with Career Catalyst.</p>
+                <a href="https://career-catalyst.site" class="inline-block px-8 py-4 bg-white text-purple-600 rounded-full text-lg font-semibold hover:shadow-xl transition-all duration-300 transform hover:scale-105">Get Started Now</a>
+            </div>
+        </section>
+
+        <section id="testimonials" class="py-24 bg-gray-50">
+            <div class="container mx-auto px-6">
+                <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">What Our Members Say</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+                    <div class="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all duration-300">
+                        <div class="flex items-center mb-4">
+                            <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=100" alt="Sarah Mitchell" class="w-12 h-12 rounded-full mr-4">
+                            <div>
+                                <h4 class="font-semibold">Sarah Mitchell</h4>
+                                <p class="text-gray-600">Software Engineer at Google</p>
+                            </div>
+                        </div>
+                        <div class="flex text-yellow-400 mb-4">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="text-gray-600">"The AI-powered learning plan was a game-changer. It helped me focus on the right skills and landed me my dream job at Google. The personalized guidance and real project experience made all the difference."</p>
+                    </div>
+                    <div class="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all duration-300">
+                        <div class="flex items-center mb-4">
+                            <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&w=100" alt="David Chen" class="w-12 h-12 rounded-full mr-4">
+                            <div>
+                                <h4 class="font-semibold">David Chen</h4>
+                                <p class="text-gray-600">Product Manager at Amazon</p>
+                            </div>
+                        </div>
+                        <div class="flex text-yellow-400 mb-4">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="text-gray-600">"Career Catalyst helped me transition from engineering to product management seamlessly. The industry partnerships and hands-on projects gave me real experience that impressed recruiters. Within 3 months, I had multiple job offers."</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="py-24">
+            <div class="container mx-auto px-6">
+                <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">About Us</h2>
+                <div class="max-w-3xl mx-auto text-center">
+                    <p class="text-gray-600 text-lg leading-relaxed">Founded in 2020, Career Catalyst emerged from a simple vision: to revolutionize career development through personalized AI-powered guidance and real-world experience. Our team of industry experts and AI specialists has helped over 10,000 professionals achieve their career goals. We believe in continuous innovation, personalized learning, and measurable results, making us the trusted partner in your career journey.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="faq" class="py-24 bg-gray-50">
             <div class="container mx-auto px-6">
                 <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">Frequently Asked Questions</h2>
                 <div class="max-w-3xl mx-auto space-y-6">
-                    <div class="bg-white rounded-lg shadow-md">
+                    <div class="bg-white rounded-lg shadow-md hover:shadow-lg transition-all duration-300">
                         <button class="w-full text-left px-6 py-4 focus:outline-none">
                             <div class="flex items-center justify-between">
                                 <span class="font-semibold">How does the AI learning plan work?</span>
-                                <svg class="w-6 h-6 text-gray-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <svg class="w-6 h-6 text-gray-500 transform transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
                                 </svg>
                             </div>
+                            <p class="mt-2 text-gray-600">Our AI analyzes your current skills, career goals, and industry trends to create a personalized learning path. The plan adapts as you progress, ensuring you're always focused on the most relevant skills and opportunities for your career growth.</p>
                         </button>
                     </div>
-                    <!-- Add more FAQ items as needed -->
+                    <div class="bg-white rounded-lg shadow-md hover:shadow-lg transition-all duration-300">
+                        <button class="w-full text-left px-6 py-4 focus:outline-none">
+                            <div class="flex items-center justify-between">
+                                <span class="font-semibold">What kind of support do you provide?</span>
+                                <svg class="w-6 h-6 text-gray-500 transform transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </div>
+                            <p class="mt-2 text-gray-600">You'll receive 1-on-1 mentoring, access to industry experts, real project opportunities, and ongoing career guidance. Our support team is available 24/7, and you'll join a community of like-minded professionals.</p>
+                        </button>
+                    </div>
                 </div>
-            </div>
-        </section>
-
-        <section class="py-24 bg-gradient-to-r from-purple-600 to-blue-500 text-white">
-            <div class="container mx-auto px-6 text-center">
-                <h2 class="text-3xl md:text-4xl font-bold mb-8">Ready to Transform Your Career?</h2>
-                <a href="https://career-catalyst.site" class="inline-block px-8 py-4 bg-white text-purple-600 rounded-full text-lg font-semibold hover:shadow-xl transition-all duration-300 transform hover:scale-105">Get Started Now</a>
             </div>
         </section>
     </main>
@@ -126,33 +212,42 @@
                 <div>
                     <h3 class="text-xl font-bold text-white mb-4">Career Catalyst</h3>
                     <p class="mb-4">Transforming careers through expert guidance and innovation.</p>
-                    <a href="mailto:david@nexai.network" class="text-purple-400 hover:text-purple-300">david@nexai.network</a>
+                    <a href="mailto:david@nexai.network" class="text-purple-400 hover:text-purple-300 transition-colors duration-300">david@nexai.network</a>
                 </div>
                 <div>
                     <h4 class="text-lg font-semibold text-white mb-4">Quick Links</h4>
                     <ul class="space-y-2">
                         <li><a href="#features" class="hover:text-white transition-colors duration-300">Features</a></li>
+                        <li><a href="#video" class="hover:text-white transition-colors duration-300">Video</a></li>
                         <li><a href="#benefits" class="hover:text-white transition-colors duration-300">Benefits</a></li>
+                        <li><a href="#testimonials" class="hover:text-white transition-colors duration-300">Testimonials</a></li>
+                        <li><a href="#about" class="hover:text-white transition-colors duration-300">About</a></li>
                         <li><a href="#faq" class="hover:text-white transition-colors duration-300">FAQ</a></li>
                     </ul>
                 </div>
                 <div>
                     <h4 class="text-lg font-semibold text-white mb-4">Legal</h4>
                     <ul class="space-y-2">
-                        <li><a href="#" class="hover:text-white transition-colors duration-300">Privacy Policy</a></li>
-                        <li><a href="#" class="hover:text-white transition-colors duration-300">Terms of Service</a></li>
+                        <li><a href="https://nexai2024.github.io/your-unique-career-journey--guided-by-experts--2025-07-02-6gcz5/privacy.html" class="hover:text-white transition-colors duration-300">Privacy Policy</a></li>
+                        <li><a href="https://nexai2024.github.io/your-unique-career-journey--guided-by-experts--2025-07-02-6gcz5/terms.html" class="hover:text-white transition-colors duration-300">Terms of Service</a></li>
+                        <li><a href="https://nexai2024.github.io/your-unique-career-journey--guided-by-experts--2025-07-02-6gcz5/blog.html" class="hover:text-white transition-colors duration-300">Blog</a></li>
                     </ul>
                 </div>
                 <div>
                     <h4 class="text-lg font-semibold text-white mb-4">Follow Us</h4>
                     <div class="flex space-x-4">
                         <a href="#" class="hover:text-white transition-colors duration-300">
-                            <span class="sr-only">Twitter</span>
-                            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
-                                <path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"></path>
-                            </svg>
+                            <i class="fab fa-twitter text-2xl"></i>
                         </a>
-                        <!-- Add more social media icons as needed -->
+                        <a href="#" class="hover:text-white transition-colors duration-300">
+                            <i class="fab fa-linkedin text-2xl"></i>
+                        </a>
+                        <a href="#" class="hover:text-white transition-colors duration-300">
+                            <i class="fab fa-facebook text-2xl"></i>
+                        </a>
+                        <a href="#" class="hover:text-white transition-colors duration-300">
+                            <i class="fab fa-instagram text-2xl"></i>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -161,5 +256,36 @@
             </div>
         </div>
     </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const mobileMenuButton = document.querySelector('header nav .mobile-menu-button');
+            const mobileMenu = document.querySelector('header nav .mobile-menu');
+            
+            if (mobileMenuButton && mobileMenu) {
+                mobileMenuButton.addEventListener('click', () => {
+                    mobileMenu.classList.toggle('hidden');
+                    const icon = mobileMenuButton.querySelector('i');
+                    if (icon) {
+                        icon.classList.toggle('fa-bars');
+                        icon.classList.toggle('fa-times');
+                    }
+                });
+
+                const mobileMenuLinks = mobileMenu.querySelectorAll('a');
+                mobileMenuLinks.forEach(link => {
+                    link.addEventListener('click', () => {
+                        mobileMenu.classList.add('hidden');
+                        const icon = mobileMenuButton.querySelector('i');
+                        if (icon) {
+                            icon.classList.remove('fa-times');
+                            icon.classList.add('fa-bars');
+                        }
+                    });
+                });
+            }
+        });
+    </script>
+</body>
 </body>
 </html>
